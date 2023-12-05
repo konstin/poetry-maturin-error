@@ -3,11 +3,10 @@ name = "poetry-maturin-error"
 version = "0.1.0"
 description = ""
 authors = ["konstin <konstin@mailbox.org>"]
-readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.10"
-maturin_dep = { path = "maturin-dep", develop = true }
+maturin_dep = { path = "maturin-dep" }
 
 
 [build-system]

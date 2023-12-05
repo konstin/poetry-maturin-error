@@ -6,7 +6,7 @@ virtualenv -p 3.10 --clear .venv
 poetry install # This fails
 
 virtualenv -p 3.10 --clear .venv
-.venv/bin/pip install -e maturin-dep # This work
+.venv/bin/pip install ./maturin-dep # This works
 
 virtualenv -p 3.10 --clear .venv
 .venv/bin/pip install maturin
